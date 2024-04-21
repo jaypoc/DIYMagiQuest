@@ -9,10 +9,12 @@ Here's what I came up with.
 
 ## Hardware
 
-* HiLetgo ESP8266 NodeMCU CP2102 ESP-12E 
-* DY-SV5V MP3 Playback Module
-* TSOP4838 IR Reciever
-* 5W 8Ohm Mini-Speaker
+* HiLetgo ESP8266 NodeMCU CP2102 ESP-12E ([link](https://www.amazon.com/dp/B0CNYJS6V7?psc=1&ref=ppx_yo2ov_dt_b_product_details))
+* DY-SV5V MP3 Playback Module  ([link](https://www.amazon.com/dp/B07YFPBGF8?psc=1&ref=ppx_yo2ov_dt_b_product_details))
+* TSOP4838 IR Reciever ([link](https://www.amazon.com/dp/B09BTD69C3?psc=1&ref=ppx_yo2ov_dt_b_product_details))
+* 5W 8Ohm Mini-Speaker ([link](https://www.amazon.com/dp/B0C5HRRHRL?psc=1&ref=ppx_yo2ov_dt_b_product_details))
+
+_This is the hardware I am using. I do  have some plans to experiment with different hardware (suck as swapping out the 38KkHz IR receiver with a 36kHz one). If you find other hardware that works, please share it._
 
 ## Disclaimer
 
