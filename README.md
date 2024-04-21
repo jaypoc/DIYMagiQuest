@@ -14,7 +14,22 @@ Here's what I came up with.
 * TSOP4838 IR Reciever ([link](https://www.amazon.com/dp/B09BTD69C3?psc=1&ref=ppx_yo2ov_dt_b_product_details))
 * 5W 8Ohm Mini-Speaker ([link](https://www.amazon.com/dp/B0C5HRRHRL?psc=1&ref=ppx_yo2ov_dt_b_product_details))
 
+Follow the documentation, as different versions of these components may have different pinouts, but heres' how I connected it:
+
+* IR receiver signal is connected to pin ```D0``` of the NodeMCU
+* MP3 module is controlled over UART from pin ```TX```on the NodeMCU to ```IO1/RX``` on the module.
+* Both are powered from the board's 3.3v connections and ground
+
+
 _This is the hardware I am using. I do  have some plans to experiment with different hardware (suck as swapping out the 38KkHz IR receiver with a 36kHz one). If you find other hardware that works, please share it._
+
+## Future Ideas
+
+* 3D print cool objects to interact with
+* Connect LEDs to light up the objects 
+* Connect Servos to animate the objects
+
+If you have any other cool ideas, please let me know!
 
 ## Disclaimer
 
