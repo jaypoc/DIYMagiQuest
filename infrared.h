@@ -10,8 +10,6 @@
 #define ERR 0
 #define DECODED 1
 
-
-
 union magiquest {
   uint64_t llword;
   uint8_t    byte[8];
