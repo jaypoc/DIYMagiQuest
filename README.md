@@ -21,7 +21,7 @@ Follow the documentation, as different versions of these components may have dif
 * Both are powered from the board's 3.3v connections and ground
 
 
-_This is the hardware I am using. I do  have some plans to experiment with different hardware (suck as swapping out the 38KkHz IR receiver with a 36kHz one). If you find other hardware that works, please share it._
+_This is the hardware I am using. I do  have some plans to experiment with different hardware (such as swapping out the 38KkHz IR receiver with a 36kHz one). If you find other hardware that works, please share it._
 
 ## Future Ideas
 
