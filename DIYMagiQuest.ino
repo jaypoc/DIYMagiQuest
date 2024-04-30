@@ -3,12 +3,14 @@
 #include "infrared.h"
 #include "networking.h"
 #include "audio.h"
+#include "led.h"
 
 void setup() {
     Serial.begin(9600);
     while (!Serial) {
         ;
     }
+    setupLED();
     setupNetworking();
     setupAudio();
     setupInfrared();
@@ -16,6 +18,7 @@ void setup() {
 
 void loop() {
     if (irrecv.decode(&results)) {
+        animateOn();
         decodeMagiQuest(&results, &data);
         debugIRData(data);
         if (WiFiMulti.run() == WL_CONNECTED) {
@@ -23,6 +26,7 @@ void loop() {
         } else {
             playTrack(1, 10000); // Track 1 is the default track if there's no connection.
         }
+        ledOff();
         irrecv.resume();
     }
     delay(100);
