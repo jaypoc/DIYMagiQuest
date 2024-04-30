@@ -50,5 +50,5 @@ int getTrackIndex(int wand_id, int magnitude) {
     } else {
         Serial.println("[HTTP] Unable to connect");
     }
-    return 1;
+    return random(1, 5);
 }
